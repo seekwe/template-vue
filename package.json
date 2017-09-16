@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "vue",
+  "version": "0.0.0",
+  "repository": {},
+  "scripts": {
+    "test": "echo lol",
+    "lint": "zls -c -e",
+    "analyzer": "zls -c -a",
+    "dev": "zls -dc",
+    "build": "zls -c"
+  },
+  "devDependencies": {
+    "zls.ui": "^0.0.16",
+    "zlslib": "^0.0.17"
+  },
+  "license": "Apache License",
+  "dependencies": {}
+}
