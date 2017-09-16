@@ -2,7 +2,7 @@
  * Created by 影浅-seekwe@gmail.com on 2017-05-10
  */
 
-const api = 'http://demo.col-member.gzmediaclick.com'
+const api = 'http://127.0.0.1'
 const staticFiles = 'static/'
 module.exports = () => ({
   entry: 'src/index.js',
@@ -10,7 +10,7 @@ module.exports = () => ({
   px2rem: 100,
   host: '0.0.0.0',
   port: 2378,
-  eslint: true,
+  eslint: false,
   promise: true,
   analyzer: false,
   sourceMap: false,
